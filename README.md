@@ -14,4 +14,3 @@ Rally Events is a beautiful, mobile-friendly web app that makes it incredibly ea
 With support for 10 different sports (Football, Tennis, Basketball, Volleyball, Badminton, Cricket, Rugby, Baseball, Swimming, and Cycling), there's something for everyone. The app features a stunning purple-blue gradient design with smooth animations that make browsing and booking events a delightful experience.
 
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
