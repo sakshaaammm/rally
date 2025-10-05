@@ -29,6 +29,11 @@ export interface Player {
   avatar: string;
 }
 
+// Import image assets so the bundler serves correct URLs
+import footballImage from "@/assets/football.jpg";
+import tennisImage from "@/assets/tennis.jpg";
+import basketballImage from "@/assets/basketball.jpg";
+
 export const mockEvents: Event[] = [
   {
     id: "1",
@@ -37,7 +42,7 @@ export const mockEvents: Event[] = [
     date: "2025-10-10",
     venue: "City Stadium",
     description: "Join us for an exciting 5v5 football match under the lights! All skill levels welcome.",
-    image: "/src/assets/football.jpg",
+    image: footballImage,
     players: [
       { id: "p1", name: "Alex Johnson", avatar: "AJ" },
       { id: "p2", name: "Maria Garcia", avatar: "MG" },
@@ -54,7 +59,7 @@ export const mockEvents: Event[] = [
     date: "2025-10-12",
     venue: "Riverside Tennis Club",
     description: "Competitive doubles match for intermediate players. Bring your A-game!",
-    image: "/src/assets/tennis.jpg",
+    image: tennisImage,
     players: [
       { id: "p5", name: "Emma Wilson", avatar: "EW" },
       { id: "p6", name: "David Chen", avatar: "DC" },
@@ -69,7 +74,7 @@ export const mockEvents: Event[] = [
     date: "2025-10-11",
     venue: "Downtown Sports Arena",
     description: "Fast-paced 3v3 basketball tournament. Winners get bragging rights!",
-    image: "/src/assets/basketball.jpg",
+    image: basketballImage,
     players: [
       { id: "p7", name: "Michael Brown", avatar: "MB" },
       { id: "p8", name: "Lisa Anderson", avatar: "LA" },
@@ -85,7 +90,7 @@ export const mockEvents: Event[] = [
     date: "2025-10-13",
     venue: "Park Field",
     description: "Casual Sunday football for everyone. Come play and make new friends!",
-    image: "/src/assets/football.jpg",
+    image: footballImage,
     players: [
       { id: "p10", name: "Tom Harris", avatar: "TH" },
       { id: "p11", name: "Nina Patel", avatar: "NP" },
@@ -100,7 +105,7 @@ export const mockEvents: Event[] = [
     date: "2025-10-14",
     venue: "Sunset Tennis Courts",
     description: "Social tennis event for all levels. Play, meet people, and have fun!",
-    image: "/src/assets/tennis.jpg",
+    image: tennisImage,
     players: [
       { id: "p12", name: "Rachel Green", avatar: "RG" },
       { id: "p13", name: "Mark Davis", avatar: "MD" },
@@ -116,7 +121,7 @@ export const mockEvents: Event[] = [
     date: "2025-10-15",
     venue: "Indoor Arena",
     description: "Late night hoops session. Bring your energy and join the game!",
-    image: "/src/assets/basketball.jpg",
+    image: basketballImage,
     players: [
       { id: "p15", name: "Kevin James", avatar: "KJ" },
     ],
